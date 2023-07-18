@@ -1,5 +1,5 @@
 The framework is implemented and tested on Unreal Engine v4.26.2. 
-You can dowmload the framework and a sample generated dataset [here](https://cloud.dfki.de/owncloud/index.php/s/XfJ6L6yzFekZMSx)
+You can dowmload the framework and a sample generated dataset [here](https://cloud.dfki.de/owncloud/index.php/s/XfJ6L6yzFekZMSx).
 
 For the automatic video recording option:
 
