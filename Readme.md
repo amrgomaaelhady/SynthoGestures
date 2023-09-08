@@ -1,4 +1,4 @@
-# ML-PersRef #
+# SynthoGestures #
 - This repository has the SynthoGestures Framework presented in the following papers: 
   - [Advancing Dynamic Hand Gesture Recognition in Driving Scenarios with Synthetic Data](https://doi.org/10.1145/3581961.3609889) at AutomotiveUI WIP 2023
   - [SynthoGestures: A Novel Framework for Synthetic Dynamic Hand Gesture Generation for Driving Scenarios](https://doi.org/10.1145/3586182.3616635) at UIST Poster 2023
