@@ -19,9 +19,13 @@ For the automatic video recording option:
 
 For use without External Plugins, Download the SynthoGesture_without_External_Plugins.zip and skip step 2 from the above instructions, then use any screen capture and recording software to extract the gestures.
 
-To create new cameras and gestures, you can either use the corresponding JSON files in the content folder or change them directly in the “actorSettings” option in the Unreal Engine scene.
+To create new cameras and gestures, you can either use the corresponding JSON files in the content folder or change them directly in the “actorSettings” option in the Unreal Engine scene. Check the below image for where can you activate different cameras, and select one of the implemented gestures. You can change all what you need from "SettingsActor" block (sorry the name was reversed in the readme and I have changed it now). You can either find it in the "World Outliner" window or there is a rectangular block in the scene called "Settings" that you simply need to click. In the "Details" window of that block, you will have to expand everything in the Default section to see all implemented gestures and camera types. You could also simple duplicate the components in the Gesture List to make it do the gestures in sequence instead of playing them one by one.
+
+![alt text](https://github.com/amrgomaaelhady/SynthoGestures/blob/main/Fig2.jpg)
 
 The "Synthetic_Gestures_Dataset_Depth_Camera.zip" contains an example of the generated hand gestures for the six classes mentioned in the papers.
+
+As for creating your own gesture, this would require familiarity with Unreal Engine a bit. Basically there a class Blueprint named "BasicSplineGesture" where all the implemented Gestures inherit from it. So, you would need to create your own class Blueprint that would inherit from the Basic one, but with different variations in the hand path, also named spline (for example, check "RotateGesture" Blueprint).
 
 ## Citation ##
 
