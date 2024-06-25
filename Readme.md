@@ -29,25 +29,34 @@ As for creating your own gesture, this would require familiarity with Unreal Eng
 
 Further Variations can be implemented for each of the gesture performed as mentioned in the paper. The variations are defined as follows. Please refer also to the issues section for more troubleshooting and walkthrough with images on some changes:
 
-• SpeedVariation
+• SpeedVariation:
 Changes the speed at which the gesture will be performed. Depending on the setting in the gesture, this might also influence the speed of the pre- and post gesture (these are the path followed until the position of the spline and back). If a relative value is selected, it will be relative to the default speed in the gesture settings.
-• PositionVariation
+
+• PositionVariation:
 Changes the position of the spline. It is recommended to use relative values since absolute values refer to the world coordinates.
-• FingerVariation
+
+• FingerVariation:
 Changes how angled each finger is. A value of 0 for all fingers represents a flat hand, while a value of -90 for all fingers represents a fist.
-• HandNoise
+
+• HandNoise:
 Changes the rotation of the hand. The hand can move from a random starting rotation to a random end rotation during the gesture. This is only recommended for arm gestures.
-• ArmNoise
+
+• ArmNoise:
 Determines how much the arm should move for gestures performed by the hand or a finger.
-• HandNoise
+
+• HandNoise:
 Determines how much the hand should move for gestures performed by a finger.
-• FingerSpacingVariation
+
+• FingerSpacingVariation:
 Change the spacing between fingers. For example to create a piece sign with the fingers.
-• StaticPause
+
+• StaticPause:
 Changes how long the hand should hold the pose for static gestures.
-• RadiusVariation (not in all gestures)
+
+• RadiusVariation (not in all gestures):
 Changes the radius of gestures that are based on a circle. Can also be used to distort the circle.
-• PositionVariation
+
+• PositionVariation:
 Changes the position of the effector for animation-based gestures.
 
 
