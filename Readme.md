@@ -65,6 +65,18 @@ Changes the position of the effector for animation-based gestures.
 - If you find this code helpful, please cite our papers:
 ```
 
+@INPROCEEDINGS{10588662,
+  author={Gomaa, Amr and Zitt, Robin and Reyes, Guillermo and Krüger, Antonio},
+  booktitle={2024 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={SynthoGestures: A Multi-Camera Framework for Generating Synthetic Dynamic Hand Gestures for Enhanced Vehicle Interaction}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={3297-3303},
+  keywords={Solid modeling;Three-dimensional displays;Shape;Intelligent vehicles;Human-machine systems;Wheels;Gesture recognition},
+  doi={10.1109/IV55156.2024.10588662}}
+
+
 @inproceedings{10.1145/3586182.3616635,
 author = {Gomaa, Amr and Zitt, Robin and Reyes, Guillermo and Kr{\"u}ger, Antonio},
 title = {SynthoGestures: A Novel Framework for Synthetic Dynamic Hand Gesture Generation for Driving Scenarios](https://doi.org/10.1145/3586182.3616635},
