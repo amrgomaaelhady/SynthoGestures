@@ -1,5 +1,6 @@
 # SynthoGestures #
-- This repository has the SynthoGestures Framework presented in the following papers: 
+- This repository has the SynthoGestures Framework presented in the following papers:
+  - [SynthoGestures: A Multi-Camera Framework for Generating Synthetic Dynamic Hand Gestures for Enhanced Vehicle Interaction](https://ieeexplore.ieee.org/document/10588662) at IEEE IV 2024
   - [Advancing Dynamic Hand Gesture Recognition in Driving Scenarios with Synthetic Data](https://doi.org/10.1145/3581961.3609889) at AutomotiveUI WIP 2023
   - [SynthoGestures: A Novel Framework for Synthetic Dynamic Hand Gesture Generation for Driving Scenarios](https://doi.org/10.1145/3586182.3616635) at UIST Poster 2023
 
